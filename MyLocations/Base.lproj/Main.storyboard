@@ -100,8 +100,8 @@
                     <connections>
                         <outlet property="addressLabel" destination="Bfp-BT-prq" id="hOb-Sp-qZb"/>
                         <outlet property="getButton" destination="F2z-mC-CAU" id="oZN-ok-IPB"/>
-                        <outlet property="latitudeLabel" destination="neq-BH-y5l" id="04j-cU-Yyi"/>
-                        <outlet property="longitudeLabel" destination="ZN9-1p-HkH" id="Zgb-Vx-FNc"/>
+                        <outlet property="latitudeLabel" destination="wVB-6q-Wns" id="S5v-tq-MU7"/>
+                        <outlet property="longitudeLabel" destination="Izf-XN-z3m" id="xMI-LD-eMJ"/>
                         <outlet property="messageLabel" destination="dau-eC-5dE" id="VqE-hw-6EU"/>
                         <outlet property="tagButton" destination="9Bn-Ah-oM3" id="dG3-PY-2RZ"/>
                     </connections>
