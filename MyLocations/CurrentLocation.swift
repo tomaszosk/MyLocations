@@ -43,7 +43,14 @@ class CurrentLocation: UIViewController, CLLocationManagerDelegate {
 //        locationManager.delegate = self
 //        locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters
 //        locationManager.startUpdatingLocation()
-        startLocationManager()
+        if updatingLocation {
+            stopLocationManager()
+        } else {
+            location = nil
+            lastLocationError = nil
+            startLocationManager()
+        }
+        
         updateLabels()
     }
     
