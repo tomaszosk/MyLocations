@@ -34,6 +34,16 @@ class CurrentLocation: UIViewController, CLLocationManagerDelegate {
         super.viewDidLoad()
         updateLabels()
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.isNavigationBarHidden = true
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.isNavigationBarHidden = false
+    }
 
     // MARK: Actions
     @IBAction func getLocation() {
