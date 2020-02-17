@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		76215B6623FB013400A5F8C4 /* CategoryPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76215B6523FB013400A5F8C4 /* CategoryPickerViewController.swift */; };
 		762AA6EC23D78FAF00464424 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762AA6EB23D78FAF00464424 /* AppDelegate.swift */; };
 		762AA6EE23D78FAF00464424 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762AA6ED23D78FAF00464424 /* SceneDelegate.swift */; };
 		762AA6F023D78FAF00464424 /* CurrentLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762AA6EF23D78FAF00464424 /* CurrentLocation.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		76215B6523FB013400A5F8C4 /* CategoryPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryPickerViewController.swift; sourceTree = "<group>"; };
 		762AA6E823D78FAF00464424 /* MyLocations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLocations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		762AA6EB23D78FAF00464424 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		762AA6ED23D78FAF00464424 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				762AA6F823D78FB600464424 /* LaunchScreen.storyboard */,
 				762AA6FB23D78FB600464424 /* Info.plist */,
 				769D814623E06A38001C66EE /* LocationDetailsViewController.swift */,
+				76215B6523FB013400A5F8C4 /* CategoryPickerViewController.swift */,
 			);
 			path = MyLocations;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76215B6623FB013400A5F8C4 /* CategoryPickerViewController.swift in Sources */,
 				762AA6F223D78FAF00464424 /* SecondViewController.swift in Sources */,
 				762AA6F023D78FAF00464424 /* CurrentLocation.swift in Sources */,
 				762AA6EC23D78FAF00464424 /* AppDelegate.swift in Sources */,
