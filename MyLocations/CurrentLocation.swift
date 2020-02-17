@@ -44,6 +44,15 @@ class CurrentLocation: UIViewController, CLLocationManagerDelegate {
         super.viewWillAppear(animated)
         navigationController?.isNavigationBarHidden = false
     }
+    
+    // MARK: Navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "Tag Location" {
+            let controller = segue.destination as! LocationDetailsViewController
+            controller.coordinate = location!.coordinate
+            controller.placemark = placemark
+        }
+    }
 
     // MARK: Actions
     @IBAction func getLocation() {
