@@ -64,6 +64,12 @@ class LocationDetailsViewController: UITableViewController {
         navigationController?.popViewController(animated: true)
     }
     
+    @IBAction func categoryPickerDidPickCategory(_ segue: UIStoryboardSegue){
+        let controller = segue.source as! CategoryPickerViewController
+        categoryName = controller.selectedCategoryName
+        categoryLabel.text = categoryName
+    }
+    
     // MARK: Helper Methods
     func string(from placemark: CLPlacemark) -> String {
         var text = ""

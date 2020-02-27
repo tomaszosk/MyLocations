@@ -364,6 +364,9 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="WP3-UY-thG" kind="unwind" unwindAction="categoryPickerDidPickCategory:" id="gVV-Rl-cIb"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -374,6 +377,7 @@
                     <navigationItem key="navigationItem" id="XlW-hl-cxP"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eCy-cu-Qj6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="WP3-UY-thG" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="3270" y="-320"/>
         </scene>
