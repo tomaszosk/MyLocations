@@ -171,7 +171,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="gyR-J5-GG7" kind="show" id="Ap9-NB-qwc"/>
+                                            <segue destination="gyR-J5-GG7" kind="show" identifier="PickCategory" id="Ap9-NB-qwc"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -365,7 +365,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="WP3-UY-thG" kind="unwind" unwindAction="categoryPickerDidPickCategory:" id="gVV-Rl-cIb"/>
+                                    <segue destination="WP3-UY-thG" kind="unwind" identifier="PickedCategory" unwindAction="categoryPickerDidPickCategory:" id="gVV-Rl-cIb"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
