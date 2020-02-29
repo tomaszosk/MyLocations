@@ -16,6 +16,7 @@
 		762AA6F723D78FB600464424 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 762AA6F623D78FB600464424 /* Assets.xcassets */; };
 		762AA6FA23D78FB600464424 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 762AA6F823D78FB600464424 /* LaunchScreen.storyboard */; };
 		7699CCFD240ABBFA00194936 /* HudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7699CCFC240ABBFA00194936 /* HudView.swift */; };
+		7699CCFF240AFF2100194936 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7699CCFE240AFF2100194936 /* Functions.swift */; };
 		769D814723E06A38001C66EE /* LocationDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769D814623E06A38001C66EE /* LocationDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		762AA6F923D78FB600464424 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		762AA6FB23D78FB600464424 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7699CCFC240ABBFA00194936 /* HudView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HudView.swift; sourceTree = "<group>"; };
+		7699CCFE240AFF2100194936 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		769D814623E06A38001C66EE /* LocationDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,6 +77,7 @@
 				769D814623E06A38001C66EE /* LocationDetailsViewController.swift */,
 				76215B6523FB013400A5F8C4 /* CategoryPickerViewController.swift */,
 				7699CCFC240ABBFA00194936 /* HudView.swift */,
+				7699CCFE240AFF2100194936 /* Functions.swift */,
 			);
 			path = MyLocations;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 				76215B6623FB013400A5F8C4 /* CategoryPickerViewController.swift in Sources */,
 				762AA6F223D78FAF00464424 /* SecondViewController.swift in Sources */,
 				762AA6F023D78FAF00464424 /* CurrentLocation.swift in Sources */,
+				7699CCFF240AFF2100194936 /* Functions.swift in Sources */,
 				762AA6EC23D78FAF00464424 /* AppDelegate.swift in Sources */,
 				762AA6EE23D78FAF00464424 /* SceneDelegate.swift in Sources */,
 				7699CCFD240ABBFA00194936 /* HudView.swift in Sources */,

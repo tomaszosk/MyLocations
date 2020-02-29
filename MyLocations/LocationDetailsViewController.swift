@@ -66,10 +66,16 @@ class LocationDetailsViewController: UITableViewController {
         hudView.text = "Tagged"
         
         let delayInSeconds = 0.6
-        DispatchQueue.main.asyncAfter(deadline: .now() + delayInSeconds, execute: {
+        
+// MARK: FOR FUTURE REFERENCE
+//        afterDelay(delayInSeconds, run: {
+//            hudView.hide()
+//            self.navigationController?.popViewController(animated: true)
+//        })
+        afterDelay(delayInSeconds) {
             hudView.hide()
             self.navigationController?.popViewController(animated: true)
-        })
+        }
     }
     
     @IBAction func cancel() {

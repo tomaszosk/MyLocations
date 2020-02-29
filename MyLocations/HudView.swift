@@ -74,7 +74,7 @@ class HudView: UIView {
         }
     }
     
-    func hide() {
+    func hide() {        
         superview?.isUserInteractionEnabled = true
         removeFromSuperview()
     }
